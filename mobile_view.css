@@ -1,0 +1,30 @@
+@media only screen and (-moz-min-device-pixel-ratio: 2), 
+only screen and (-o-min-device-pixel-ratio: 2/1), 
+only screen and (-webkit-min-device-pixel-ratio: 2), 
+only screen and (min-device-pixel-ratio: 2) {
+  
+  .bemvindo{
+    font-size: 250%;
+  }
+
+  .texto-principal{
+    font-size: 250%;
+  }
+
+  h1{
+    font-size: 250%;
+  }
+
+  p{
+    font-size: 250%;
+  }
+
+  .legendacao{
+    font-size: 250%;
+  }
+
+  .responsive {
+    width: 50%;
+    height: auto;
+  }
+}   

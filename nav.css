@@ -1,0 +1,62 @@
+    body {
+        text-align: center;
+        background-color: #3D3D3D;
+        margin: 0px;
+    }
+    
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: #008080;
+        font-family: "Poppins", sans-serif;
+    }
+    
+    .logo {
+        color: rgb(226, 226, 226);
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-size: 20px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .nav-links {
+        display: flex;
+        justify-content: space-around;
+        width: 20%;
+    }
+    
+    .nav-links li {
+        list-style: none;
+    }
+    
+    .nav-links a {
+        color: rgb(226, 226, 226);
+        text-decoration: none;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    
+    @media only screen and (-moz-min-device-pixel-ratio: 2), 
+        only screen and (-o-min-device-pixel-ratio: 2/1), 
+        only screen and (-webkit-min-device-pixel-ratio: 2), 
+        only screen and (min-device-pixel-ratio: 2) {
+            
+            .nav-links{
+            width: 45%;
+            }
+            
+            .nav-links li a{
+            font-size: 250%;
+            }
+
+            .logo{
+            font-size: 250%;
+            }
+
+    }   

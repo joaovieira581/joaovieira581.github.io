@@ -1,78 +1,17 @@
 body {
   text-align: center;
   background-color: #3D3D3D;
-  margin: 0px;
 }
 
-h1 {
+.bemvindo {
   color: white;
   font-family: calibri;
   font-size: 50px;
-  padding-top: 50px;
 }
 
-p {
+.texto-principal{
   color: white;
   font-family: verdana;
   font-size: 20px;
 }
 
-img {
-  margin: 25px;
-}
-
-#segundop{
-  font-weight: bold;
-  background-color: #ed5c5c;
-}
-
-figure{
-  background-color: white;
-  border: 1px solid black;
-  width: 300px;
-}
-
-#legendacao{
-  color: black;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  min-height: 8vh;
-  background-color: #008080;
-  font-family: "Poppins", sans-serif;
-}
-
-.logo {
-  color: rgb(226, 226, 226);
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: space-around;
-  width: 30%;
-}
-
-.nav-links li {
-  list-style: none;
-}
-
-.nav-links a {
-  color: rgb(226, 226, 226);
-  text-decoration: none;
-  letter-spacing: 3px;
-  font-weight: bold;
-  font-size: 14px;
-}
