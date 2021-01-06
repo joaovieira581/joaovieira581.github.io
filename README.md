@@ -1,9 +1,3 @@
-# Eu sou o João
+# Bem Vindo
 
-**Obviamente sou o rei e toda a gente sabe.**
-
-Nunca esquecer o rei.
-
-![Lindo](chimken_dog.jpg)
-
-Este é o meu site!
+Este é o meu site, de momento estou a usá-lo para testar algumas coisas em HTML e CSS.
