@@ -1,0 +1,30 @@
+body {
+  text-align: center;
+  background-color: #3D3D3D;
+}
+
+h1 {
+  color: white;
+  font-family: calibri;
+  font-size: 50px;
+
+}
+
+p {
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+  border: 3px solid #c4c4c4;
+  margin: 15px;
+  width: 200px;
+}
+
+.galeria{
+  font-family: "Calibri";
+  color: white;
+  text-align: center;
+  margin-bottom: 75px;
+}
