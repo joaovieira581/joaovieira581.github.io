@@ -16,7 +16,7 @@ p {
   font-size: 20px;
 }
 
-img {
+.imagem {
   border: 3px solid #c4c4c4;
   margin: 15px;
   width: 200px;
@@ -27,4 +27,32 @@ img {
   color: white;
   text-align: center;
   margin-bottom: 75px;
+  margin-top: 75px;
+
 }
+
+.galeria th{
+  font-size: 25px;
+}
+
+.insta {
+  text-decoration: none;
+  color: white;
+}
+
+.video-heli-lego{
+  margin-top: 75px;
+  margin-bottom: 75px;
+  width: 55%;
+
+}
+
+.audio-cao{
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.media-title{
+  margin-top: 200px;
+  font-size: 25px;
+ }
