@@ -1,0 +1,15 @@
+.imagens{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.boneco{
+    padding-left: 15%;
+    width: auto;
+}
+
+img{
+    width: 100%;
+}
