@@ -1,7 +1,7 @@
 header{
     position: relative; /* o elemento é posicionado relativo á sua posição normal, como a posição normal é 0px em todas as direções, fica no mesmo sítio (esta linha é para não haver chance de desformatar em ecrâs mais densos)*/
     width: 100%; /* define a largura do elemento para ser da largura total*/
-    background-color: rgb(255, 167, 140); /* define a cor de fundo do elemento*/
+    background-color:  rgb(255, 167, 140); /* define a cor de fundo do elemento*/
     display: flex; /* permite que os elementos dentro 'flexionem' (acabam por ficar em linha) */
     justify-content: space-around; /* justifica o conteudo e faz com que o espaço á volta de cada elemento seja o mesmo*/
     margin: auto; /* margens automáticas, faz com que fique á mesma distância da esquerda e da dierita (neste caso também ajuda a não desformatar em dispositivos com telas densas)*/
