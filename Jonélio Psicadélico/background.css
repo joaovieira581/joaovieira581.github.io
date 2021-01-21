@@ -1,5 +1,4 @@
 .wrapper { 
-    height: 100%;
     width: 100%;
     left:0;
     right: 0;
@@ -12,6 +11,8 @@
   -webkit-animation: rainbow 18s ease infinite;
   -z-animation: rainbow 18s ease infinite;
   -o-animation: rainbow 18s ease infinite;
-    animation: rainbow 18s ease infinite;}
+    animation: rainbow 18s ease infinite;
+
+}
   
   

@@ -1,36 +1,113 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Sobre - Jonélio Psicadélico</title>
-        <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="../../global.css">
-        <link rel="stylesheet" href="../../background.css">
-        <link rel="stylesheet" href="../../rainbow.css">
-    </head>
-    <body>
-        <div class="wrapper">
-            <header>
-                <div class="nav">
-                    <div class="logo">
-                        <h1><a class="logo-link" target="_blank" href="https://instagram.com/joaovieira_03">Jonélio</a></h1>
-                    </div>
-                    <div class="links">
-                        <ul class="links-ul">
-                            <li><a class="links-a" href="../../index.html">Início</a></li>
-                            <li><a class="links-a" href="../../pages/galeria/galeria.html">Galeria</a></li>
-                            <li><a class="links-a" href="../../pages/sobre/sobre.html">Sobre</a></li>
-                        </ul>
-                    </div>
+
+<head>
+    <title>Sobre - Jonélio Psicadélico</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../global.css">
+    <link rel="stylesheet" href="../../background.css">
+    <link rel="stylesheet" href="../../rainbow.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="nav">
+                <div class="logo">
+                    <h1><a class="logo-link" target="_blank" href="https://instagram.com/joaovieira_03">Jonélio</a></h1>
                 </div>
-            </header>
-
-            <div class="texto">
-                <h3>Esta página não tem utilidade nenhuma</h3>
-                <p>Nenhuma mesmo, é 100% inútil.</p>
+                <div class="links">
+                    <ul class="links-ul">
+                        <li><a class="links-a" href="../../index.html">Início</a></li>
+                        <li><a class="links-a" href="../../pages/galeria/galeria.html">Galeria</a></li>
+                        <li><a class="links-a" href="../../pages/sobre/sobre.html">Sobre</a></li>
+                    </ul>
+                </div>
             </div>
+        </header>
 
+        <div class="texto">
+            <h3>Esta página não tem utilidade nenhuma</h3>
+            <p>Nenhuma mesmo, é 100% inútil.</p>
+        </div>
+
+        <div class="contacto">
+
+            <form action="mailto:">
+
+                <fieldset>
+                    <legend>Contacte-nos</legend>
+                    <fieldset>
+                        <legend>*Identificação do Utilizador</legend>
+
+                        <p>Nome: <input type="text" maxlength="100" placeholder="Nome Completo" id="inome" name="nnome"></p>
+                        <p>Password: <input type="password" maxlength="100" placeholder="Password" id="ipassword"name="npassword"></p>
+                        <p>Email: <input type="email" maxlength="100" placeholder="Endereço de Email" id="iemail"name="nemail"></p>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>*Género:</legend>
+
+                        <input type="radio" id="feminino" name="ngenero" value="Feminino">
+                        <label for="feminino">Feminino</label><br>
+
+                        <input type="radio" id="masculino" name="ngenero" value="Masculino">
+                        <label for="masculino">Masculino</label><br>
+
+                        <input type="radio" id="outro" name="ngenero" value="Outro">
+                        <label for="outro">Outro</label><br>
+
+                    </fieldset>
+
+                    <Fieldset>
+                        <legend>*Data de Nascimento</legend>
+
+                        <input type="date" id="inascimento" name="nnascimento">
+
+                    </Fieldset>
+
+                    <Fieldset>
+                        <legend>*Morada</legend>
+
+                        <p>Rua: <input type="text" maxlength="100" placeholder="Rua" id="irua" name="rua"></p>
+                        <p>Nº: <input type="number" min="0" max="999999" id="inporta"name="nporta"></p>
+                        <p>Código Postal: <input type="text" maxlength="100" placeholder="Codigo Postal" id="icodpostal"name="codpostal"></p>
+                        <p>Localidade: <input type="text" maxlength="100" placeholder="Localidade" id="ilocalidade"name="localidade"></p>
+
+                    </Fieldset>
+
+                    <Fieldset>
+                        <legend>*UFCD</legend>
+
+                        <p>Gostaria de Frequentar uma UFCD<input type="checkbox" id="iUFCD" name="UFCD"></p>
+                        <p>UFCD: <select id="ilistaufcd" name="listaufcd"></p>
+                            <option>Escolha uma UFCD</option>
+                            <option>UFCD 0754 - Processador de texto</option>
+                            <option>UFCD 0778 - Folha de Cálculo</option>
+                            <option>UFCD 0780 - App. de Gestão Administrativa</option>
+                            <option>UFCD 0776 - Sist. de Inf. da Empresa</option>
+                        </select>
+
+                        <p>Quantidade <input type="number" id="iqtd" name="nqtd" min="0" max="5"></p>
+                        <p>Preço Total: <input type="text" id="ipreco" name="npreco" placeholder="Total a pagar"></p>
+                    </Fieldset>
+
+                    <fieldset>
+
+                        <legend>Observações:</legend>
+                        <p>Mensagem: <br><textarea class="msg" name="nmsg" id="imsg" cols="30" rows="10"></textarea></p>
+
+                        <input type="submit">
+                    </fieldset>
+
+
+                </fieldset>
+            </form>
+        </div>
     </div>
-    </body>
+</body>
+
 </html>
